@@ -1,5 +1,8 @@
 @RestResource(urlMapping = '/deleteAll')
 global with sharing class DEL_TMDeleteAPI {
+     global static void addTestUsers() {
+     }
+     
    /* @HttpDelete
     global static void deleteAll() {
         RestResponse res = RestContext.response;
